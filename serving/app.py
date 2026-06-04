@@ -38,7 +38,7 @@ if not _FASTAPI_AVAILABLE:
 
 app = FastAPI(
     title="llm-rag-deployment",
-    description="Composable RAG pipeline — document ingestion, retrieval, and LLM generation",
+    description="Composable RAG pipeline: document ingestion, retrieval, and LLM generation",
     version="0.1.0",
 )
 

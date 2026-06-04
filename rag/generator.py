@@ -141,7 +141,7 @@ class RAGGenerator:
         else:
             # Fallback stub when transformers not available
             answer = (
-                f"[Stub answer — install transformers for real generation] "
+                f"[Stub answer: install transformers for real generation] "
                 f"Based on {len(context_chunks)} retrieved chunk(s), this is a placeholder response."
             )
             tokens_generated = len(answer.split())
