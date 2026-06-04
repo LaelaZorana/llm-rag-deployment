@@ -1,8 +1,8 @@
 # llm-rag-deployment
 
-Every LLM project I worked on eventually needed a retrieval layer — and I kept reinventing the same chunking/retrieval/generation pipeline. This is my clean, composable version that I can drop into any project.
+Every LLM project I worked on eventually needed a retrieval layer, and I kept reinventing the same chunking/retrieval/generation pipeline, so this is my clean, composable version that I can drop into any project.
 
-The design goal was zero magic: each component (chunker, retriever, generator) is a standalone class you can test and swap independently. The FastAPI layer is thin. The only required dependency is numpy.
+The design goal was zero magic: each component (chunker, retriever, generator) is a standalone class you can test and swap independently, the FastAPI layer stays thin, and the only required dependency is numpy.
 
 ## Architecture
 
