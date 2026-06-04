@@ -1,5 +1,5 @@
 """
-chunker.py — Document chunking strategies for RAG pipelines.
+chunker.py: Document chunking strategies for RAG pipelines.
 
 Supports three strategies:
 - fixed: fixed-size token windows with overlap

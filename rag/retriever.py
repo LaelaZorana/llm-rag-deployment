@@ -1,9 +1,9 @@
 """
-retriever.py — In-memory vector retrieval using cosine similarity.
+retriever.py: In-memory vector retrieval using cosine similarity.
 
 NOTE: This uses random numpy embeddings as a placeholder. In production you'd
 swap in real embeddings from sentence-transformers, OpenAI, or similar. The
-architecture stays the same — just replace _embed() with a real model call.
+architecture stays the same, just replace _embed() with a real model call.
 
 Why no external vector DB? For portability. This runs with numpy only and
 makes the retrieval logic easy to unit test without spinning up infrastructure.

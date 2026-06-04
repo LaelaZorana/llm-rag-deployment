@@ -1,5 +1,5 @@
 """
-generator.py — LLM-based answer generation for RAG pipelines.
+generator.py: LLM-based answer generation for RAG pipelines.
 
 Uses HuggingFace transformers pipeline with graceful fallback if not installed.
 The prompt template puts retrieved context before the question so the model
@@ -82,7 +82,7 @@ class RAGGenerator:
                     device=-1 if device == "cpu" else 0,
                 )
             except Exception as e:
-                # Model download failed or other init error — degrade gracefully
+                # Model download failed or other init error, degrade gracefully
                 self._pipeline = None
                 self._init_error = str(e)
 

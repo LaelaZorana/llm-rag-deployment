@@ -1,5 +1,5 @@
 """
-demo_pipeline.py — End-to-end demonstration of the RAG pipeline with synthetic documents.
+demo_pipeline.py: End-to-end demonstration of the RAG pipeline with synthetic documents.
 
 Run with:
     python examples/demo_pipeline.py
@@ -36,7 +36,7 @@ DOCUMENTS = [
         "text": (
             "Vector databases store high-dimensional embeddings and support fast approximate nearest neighbor search. "
             "Popular options include Pinecone, Weaviate, Chroma, and pgvector. "
-            "They're the backbone of modern RAG systems — instead of keyword search, "
+            "They're the backbone of modern RAG systems. Instead of keyword search, "
             "semantic similarity lets you retrieve conceptually related content."
         ),
     },

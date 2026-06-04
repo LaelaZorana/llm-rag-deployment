@@ -1,11 +1,11 @@
 """
-app.py — FastAPI serving layer for the RAG pipeline.
+app.py: FastAPI serving layer for the RAG pipeline.
 
 Endpoints:
-    POST /ingest  — ingest documents into the index
-    POST /query   — query the RAG pipeline
-    GET  /health  — liveness check
-    GET  /stats   — index size, query count, avg latency
+    POST /ingest  : ingest documents into the index
+    POST /query   : query the RAG pipeline
+    GET  /health  : liveness check
+    GET  /stats   : index size, query count, avg latency
 
 Gracefully skips startup if fastapi/uvicorn not installed.
 """

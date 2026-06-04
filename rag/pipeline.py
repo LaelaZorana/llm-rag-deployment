@@ -1,5 +1,5 @@
 """
-pipeline.py — End-to-end RAG pipeline composing chunker, retriever, and generator.
+pipeline.py: End-to-end RAG pipeline composing chunker, retriever, and generator.
 """
 
 from dataclasses import dataclass, field

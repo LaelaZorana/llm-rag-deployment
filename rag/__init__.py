@@ -1,5 +1,5 @@
 """
-llm-rag-deployment: Composable RAG pipeline — chunking, retrieval, generation, serving.
+llm-rag-deployment: Composable RAG pipeline: chunking, retrieval, generation, serving.
 """
 
 from .chunker import DocumentChunker, Chunk
